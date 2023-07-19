@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "toantc444444"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-13hcz903sii5e"
+s3_prefix = "toantc444444"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["HelloWorldFunction=555413626884.dkr.ecr.us-east-1.amazonaws.com/toantc444444015927af/helloworldfunction19d43fc4repo"]
